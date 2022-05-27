@@ -1,7 +1,7 @@
 <?php
   define('DB_HOST', 'localhost');
   define('DB_USER', 'user');
-  define('DB_PASS', 'SqL12345');
+  define('DB_PASS', 'parool');
   define('DB_NAME', 'register_project');
 
   //Connection
