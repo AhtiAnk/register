@@ -1,0 +1,89 @@
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+body {
+  background-image: url(../res/background.jpg);
+  background-size: cover;
+}
+
+.box {
+  background-color: rgba(173, 170, 180, 0.562);
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px;
+}
+
+.tabs {
+  margin-bottom: 30px;
+  padding-top:30px;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  list-style-type: none;
+  align-items: center;
+}
+
+.tabs li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tabs li:hover {
+  background-color: rgba(164, 207, 151, 0.562);
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.tabs li.active {
+  background-color: rgb(117, 173, 100);
+  padding: 5px;
+  border-radius: 7px;
+}
+
+span {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+  
+.textinput input {
+  height: 25px;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.submitbutton input {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(144, 175, 135);
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  height: 30px;
+  width: 130px;
+  margin-top: 20px;
+}
+
+.submitbutton input:hover {
+  background-color: rgb(117, 173, 100);
+  cursor: pointer;
+}
+
+.is-invalid {
+  border-color: red;
+}
+
+p {
+  margin: 0;
+  color: white;
+}
